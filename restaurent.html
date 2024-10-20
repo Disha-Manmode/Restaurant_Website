@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diva's Delight Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="newstyles.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <h1>Diva's Delight</h1>
+            <p>Where Flavor Meets Elegance</p>
+            <a href="#menu" class="cta-button">View Our Menu</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#Book-table">Book your Table</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>About Us</h2>
+        <p>At Diva's Delight, we bring you the finest dining experience with an array of delicious dishes prepared by
+            our top chefs. Indulge in a journey of flavors like never before!</p>
+            <img src="C:\Users\hp\Downloads\Gemini_Generated_Image_mle4jkmle4jkmle4.jpeg" alt="image" height="500" width="700" >
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <!-- Starters -->
+            <div class="menu-card">
+                <h3>Starters</h3>
+                <ul>
+                    <li><strong>Cheese Garlic Bread</strong> A classic appetizer for all ages.</li>
+                    <li><strong>Loaded Nachos</strong>Vegetarian or meat toppings with cheese, sour cream, guacamole, and salsa.</li>
+                    <li><strong>Tandoori Chicken Tikka</strong>Grilled and flavorful, available mild for kids.</li>
+                    <li><strong>Mini Spring Rolls</strong>Choose from vegetable or chicken with sweet chili sauce.</li>
+                </ul>
+            </div>
+            
+            <!-- Main Courses -->
+            <div class="menu-card">
+                <h3>Main Courses</h3>
+                <ul>
+                    <li><strong>Family-Style Pizza</strong>Options for kids (pepperoni, cheese) and adults (BBQ chicken, veggie deluxe).</li>
+                    <li><strong>Butter Chicken with Naan</strong>Mild Indian dish served with naan and rice.</li>
+                    <li><strong>Pasta Alfredo or Marinara</strong>Classic pasta dishes with optional grilled chicken or veggies.</li>
+                    <li><strong>Grilled Fish with Lemon Butter Sauce</strong>A light and healthy choice for all ages.</li>
+                    <li><strong>Burgers (Veggie, Chicken, Beef)</strong>Customizable toppings available.</li>
+                </ul>
+            </div>
+            
+            <!-- Desserts -->
+            <div class="menu-card">
+                <h3>Desserts</h3>
+                <ul>
+                    <li><strong>Chocolate Brownie Sundae</strong> Warm brownies with vanilla ice cream and chocolate sauce.</li>
+                    <li><strong>Fruit Salad with Honey and Yogurt</strong> A lighter dessert option.</li>
+                    <li><strong>Ice Cream Scoops with Toppings</strong> Various flavors and toppings available.</li>
+                    <li><strong>Cheesecake</strong> A classic dessert for all ages.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+                
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="C:\Users\hp\Downloads\Gemini_Generated_Image_ukzj52ukzj52ukzj.jpeg" alt="Dish 1" class="gallery-item">
+            <img src="C:\Users\hp\Downloads\Gemini_Generated_Image_h6b6nsh6b6nsh6b6.jpeg" alt="Dish 2" class="gallery-item">
+            <img src="C:\Users\hp\Downloads\Gemini_Generated_Image_4dma664dma664dma.jpeg" alt="Dish 3" class="gallery-item">
+            <img src="C:\Users\hp\Downloads\Gemini_Generated_Image_orchgorchgorchgo.jpeg" alt="Dish 4" class="gallery-item">
+        </div>
+    </section>
+
+    <!-- Book Your Table Section -->
+    <section id="Book-table">
+        <h2>Book Your Table</h2>
+        <form>
+            <label for="reserve-name">Name:</label>
+            <input type="text" id="reserve-name" required>
+            <label for="reserve-email">Email:</label>
+            <input type="email" id="reserve-email" required>
+            <label for="reserve-phone">Phone Number:</label>
+            <input type="tel" id="reserve-phone" required>
+            <label for="reserve-date">Date:</label>
+            <input type="date" id="reserve-date" required>
+            <label for="reserve-time">Time:</label>
+            <input type="time" id="reserve-time" required>
+            <label for="reserve-guests">Number of Guests:</label>
+            <input type="number" id="reserve-guests" min="1" required>
+            <button type="submit">Reserve Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" required>
+            <label for="contact-message">Message:</label>
+            <textarea id="contact-message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Diva's Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="newscript.js"></script>
+</body>
+
+</html>
